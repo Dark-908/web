@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Монополия</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+    .board {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    .cell {
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Монополия</h1>
+  <div class="board" id="board"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
